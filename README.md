@@ -22,6 +22,7 @@ The conflict markers used by Git were:
 <<<<<<< HEAD
 =======
 >>>>>>> <commit>
+```
 
 We kept the contributions from all group members in the final README. The conflict markers were removed, and the README was saved with all required rows.
 
