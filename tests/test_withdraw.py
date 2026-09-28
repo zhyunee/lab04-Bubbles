@@ -1,16 +1,13 @@
 import pytest
 from bank import BankAccount
 
-
 @pytest.fixture
 def account():
     return BankAccount(100)
 
-
 def test_withdraw_reduces_balance(account):
-    account.withdraw(40)
-    assert account.balance == 60
-
+    account.withdraw(50)
+    assert account.balance == 50
 
 def test_withdraw_more_than_balance_raises_value_error(account):
     with pytest.raises(ValueError):
