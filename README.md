@@ -18,10 +18,10 @@ Our group created a merge conflict while multiple group members were editing REA
 The conflict happened because different group members changed the same part of README.md. Git could not automatically determine which changes should be kept.
 
 The conflict markers used by Git were:
-
+```text
 <<<<<<< HEAD
 =======
->>>>>>> other commit
+>>>>>>> <commit>
 
 We kept the contributions from all group members in the final README. The conflict markers were removed, and the README was saved with all required rows.
 
