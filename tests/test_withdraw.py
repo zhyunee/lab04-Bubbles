@@ -12,6 +12,6 @@ def test_withdraw_reduces_balance(account):
     assert account.balance == 60
 
 
-def test_overdraft_raises_error(account):
+def test_withdraw_more_than_balance_raises_value_error(account):
     with pytest.raises(ValueError):
         account.withdraw(150)
