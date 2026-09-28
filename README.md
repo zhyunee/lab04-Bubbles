@@ -19,7 +19,6 @@ The conflict happened because different group members changed the same part of R
 
 The conflict markers used by Git were:
 
-```text
 <<<<<<< HEAD
 =======
 >>>>>>> other commit
