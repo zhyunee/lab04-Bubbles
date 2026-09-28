@@ -21,7 +21,7 @@ The conflict markers were:
 
 <<<<<<< HEAD
 | Member | GitHub Username | File |
-=======
+=
 | Member | GitHub Username | File |
 >>>>>>> other commit
 
