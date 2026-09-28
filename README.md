@@ -13,16 +13,15 @@
 
 ## Our Merge Conflict
 
-Our group created a merge conflict while multiple group members were editing the same section of README.md at roughly the same time.
+Our group created a merge conflict while multiple group members were editing README.md at roughly the same time.
 
-The conflict occurred because different group members made changes to the same part of README.md. Git could not automatically determine which changes should be kept.
+The conflict happened because different group members changed the same part of README.md. Git could not automatically determine which changes should be kept.
 
-The conflict markers were:
+The conflict markers used by Git were:
 
+```text
 <<<<<<< HEAD
-| Member | GitHub Username | File |
-=
-| Member | GitHub Username | File |
+=======
 >>>>>>> other commit
 
 We kept the contributions from all group members in the final README. The conflict markers were removed, and the README was saved with all required rows.
